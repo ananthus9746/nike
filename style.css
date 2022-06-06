@@ -1,0 +1,611 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+.navbar-1 {
+  width: 100%;
+  height: 36px;
+  background-color: #f5f5f5;
+}
+.jordan-icon {
+  margin-left: 40px;
+  margin-top: 4px;
+  width: 23px;
+}
+.user-menu {
+  width: 185px;
+  height: 36px;
+
+  float: right;
+  margin-right: 40px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  padding-top: 10px;
+}
+.help {
+  text-decoration: none;
+  margin: 10px;
+}
+.Join-Us {
+  text-decoration: none;
+  margin: 10px;
+}
+.Sign-In {
+  text-decoration: none;
+  margin: 10px;
+}
+.navbar-2-Category {
+  height: 60px;
+  width: 100%;
+  display: flex;
+}
+.Nike-icon-div {
+  height: 60px;
+  width: 84px;
+
+  margin-left: 36px;
+  float: left;
+}
+.Nike-icon {
+  width: 54px;
+}
+.Catagerory {
+  width: 659px;
+  height: 60px;
+  margin-left: 210px;
+  float: left;
+}
+.Genders {
+  list-style-type: none;
+  padding-left: 132px;
+  margin: 0p;
+  overflow: hidden;
+}
+.li-first {
+  float: left;
+  padding-top: 15px;
+  margin-left: px;
+}
+.li-first-a {
+  padding: 9px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+.Search-box-div {
+  height: 60px;
+  width: 225px;
+  float: left;
+  margin-right: 60px;
+  margin-left: px;
+  padding-left: 5px;
+}
+.search_box {
+  /*default heigt and width for Search box div*/
+  height: 0px;
+  width: 0px;
+  margin-left: 45px;
+  margin-top: 10px;
+}
+.input {
+  border: 0;
+  outline: none;
+  color: rgb(44, 43, 54);
+  width: 175px;
+  height: 40px;
+  border-radius: 50px;
+  padding-left: 40px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  background-color: #f5f5f5;
+}
+.btn {
+  position: relative;
+  bottom: 40px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  padding-top: 14px;
+  border-radius: 40px;
+  padding-left: 11px;
+}
+.btn:hover {
+  background: rgb(234, 234, 241);
+}
+.cart-item {
+  width: 50px;
+  height: 60px;
+  background-color: rgb(35, 35, 37);
+  padding-left: 12px;
+  padding-top: 20px;
+}
+.heart {
+  position: relative;
+  right: 40px;
+  padding-right: px;
+  padding-top: 25px;
+}
+.cart{
+  position: relative;
+  top: 25px;
+  right: 15px;
+
+}
+/*need re check on top sections*/
+.sliding-banner {
+  width: 100%;
+  height: 60px;
+  background-color: #f5f5f5;
+  float: left;
+  text-align: center;
+  padding-top: 1px;
+}
+.Sticky-banner {
+  width: 1253px;
+  height: 104px;
+  float: left;
+  margin-left: 48px;
+}
+.men {
+  height: 50px;
+  width: 50px;
+
+  margin-top: 25px;
+  padding-top: 15px;
+  font-size: 24px;
+  font-weight: 500;
+  float: left;
+}
+.products {
+  width: 500px;
+  height: 60px;
+  margin-left: 335px;
+  float: left;
+  margin-top: 25px;
+}
+.item {
+  list-style-type: none;
+  padding-left: 132px;
+  margin: 0p;
+  overflow: hidden;
+}
+.items-product {
+  float: left;
+  padding-top: 15px;
+  margin-left: px;
+  font-size: 16px;
+}
+.photo-Nika {
+  width: 1253px;
+  height: 711px;
+  float: left;
+  position: relative;
+}
+.image-one {
+  width: 1253px;
+}
+
+.text-BOLD {
+  position: absolute;
+  top: 0;
+
+  padding: 50px;
+}
+.text-BOLD h1 {
+  font-size: 72px;
+  margin-bottom: 25px;
+  line-height: 70px;
+  font-family: sans-serif;
+}
+.text-BOLD h5 {
+  font-size: 18px;
+}
+.text-BOLD h6 {
+  font-size: 15px;
+  padding-bottom: 30px;
+}
+.Explore {
+  width: 160px;
+  height: 40px;
+  border-radius: 25px;
+  color: rgb(253, 253, 253);
+  background-color: black;
+}
+.featured {
+  width: 1253px;
+  height: 150px;
+
+  float: left;
+  padding-top: 100px;
+  font-size: 23px;
+}
+.featured-product {
+  width: 1253px;
+  height: 700px;
+
+  float: left;
+}
+.left-side {
+  width: 620.5px;
+  height: 700px;
+  float: left;
+  position: relative;
+}
+.right-side {
+  width: 620.5px;
+  height: 700px;
+  position: relative;
+
+  float: left;
+  margin-left: 12px;
+}
+.right {
+  padding-left: 5px;
+  width: 620.5px;
+  height: 700px;
+}
+.left {
+  width: 620.5px;
+  height: 700px;
+}
+.Shop {
+  width: 80px;
+  height: 40px;
+  border-radius: 30px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border: none;
+  font-size: 17px;
+}
+.Shop:hover {
+  background: rgb(214, 214, 218);
+}
+.text-spirit {
+  color: #f5f5f5;
+  position: absolute;
+  top: 0;
+  padding: 65px;
+  line-height: 65px;
+  margin-top: 450px;
+}
+
+.slide {
+  /* slide div placed in sub main div after banner sliding div(men)*/
+  width: 100%;
+  height: 580px;
+
+  float: left;
+  margin-top: 90px;
+  padding-top: 20px;
+}
+.Popular-Right-Now {
+  font-size: 23px;
+  padding-bottom: 2px;
+}
+.wrapper {
+  height: 550.3px;
+
+  display: flex;
+  overflow-x: auto;
+}
+.wrapper::-webkit-scrollbar {
+  width: 0;
+}
+.wrapper .items {
+  min-width: 411px;
+  height: 480.33px;
+  line-height: 110px;
+
+  margin: 10px;
+}
+.nike {
+  width: 411px;
+  margin: 0;
+}
+.model-container {
+  width: 300px;
+  height: 68px;
+
+  position: relative;
+  bottom: 49px;
+  float: left;
+}
+.model-name {
+  font-size: 15px;
+  padding-top: 10px;
+  line-height: 17px;
+  font-family: sans-serif;
+}
+.price-container {
+  width: 111px;
+  height: 68px;
+
+  float: left;
+  position: relative;
+  bottom: 49px;
+}
+.price-text {
+  line-height: 17px;
+  padding-top: 10px;
+  margin-left: 55px;
+}
+.Jordan-Apparel {
+  width: 100%;
+  height: 130px;
+  font-size: 23px;
+  float: left;
+  padding-top: 80px;
+}
+.Jordan-image-container {
+  width: 100%;
+  height: 893px;
+ 
+  float: left;
+}
+.jordan-text {
+  text-align: center;
+  line-height: 60px;
+  padding-top: 40px;
+}
+.jordan-text h1 {
+  font-size: 70px;
+}
+.jordan-text h6 {
+  font-size: 15px;
+}
+.Shop {
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  color: rgb(253, 253, 253);
+  background-color: rgb(224, 32, 32);
+}
+/*same as top banner*/
+.The-Latest {
+  width: 100%;
+  height: 130px;
+  font-size: 23px;
+  float: left;
+  padding-top: 80px;
+}
+.Latest-image-container {
+  width: 100%;
+  height: 885px;
+  
+  float: left;
+}
+.Latest-text {
+  text-align: center;
+  line-height: 50px;
+  padding-top: 40px;
+}
+.Latest-text h1 {
+  font-size: 70px;
+  margin-top: 10px;
+}
+.Latest-text h6 {
+  font-size: 15px;
+  line-height: 23px;
+  padding-top: 25px;
+  margin-bottom: 30px;
+}
+.Shop {
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  color: rgb(253, 253, 253);
+  background-color: rgb(15, 14, 14);
+}
+.Essentials {
+  width: 100%;
+  height: px;
+  
+  float: left;
+  padding-top: 25px;
+}
+.The-Essentials {
+    font-size: 23px;
+    margin-bottom: 10px;
+    
+  }
+
+
+
+
+
+
+.Slide-Essentials {
+  /*for popular right now The Essetial*/
+  width: 100%;
+  height: 830px;
+  float: left;
+  padding-top: 55px;
+  
+}
+.wrapper-Essentials {
+  height: 750px;
+  display: flex;
+  overflow-x: auto;
+  
+}
+.wrapper-Essentials::-webkit-scrollbar {
+  width: 0;
+}
+.items-three-image {
+  min-width: 400px;
+  height: 700px;
+  margin: 10px;
+  position: relative;
+}
+.Essential-three-images {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+.Shop-Essentials {
+    position: absolute;
+    top: 600px;
+    margin-left: 50px;
+    width: 160px;
+    height: 38px;
+    font-size:15px;
+    border-radius: 40px;
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 254, 254);
+  }
+  .Shop-Essentials:hover {
+    background: rgb(214, 214, 218);
+  }
+
+
+
+
+
+
+/*footer 1st*/
+.footer-div-first {
+  width: 80%;
+  height: 250px;
+ 
+  float: left;
+  padding-top: 55px;
+  margin-left: 80px;
+ 
+  
+}
+.footer-first {
+  padding: 25px 0;
+}
+.container-first {
+  max-width: 1310px;
+  margin-left: 50px;
+}
+.row-first {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-col-first ul {
+  list-style: none;
+}
+.footer-col-first li a {
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 30px;
+  color: rgb(160, 148, 148);
+}
+
+.footer-col-first {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col-first h4 {
+  font-size: 17px;
+  color: #000000;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+/*footer 2nd*/
+.footer-div-second {
+  width: 100%;
+  height: 300px;
+  background-color: #0a0a0afb;
+  float: left;
+  padding-top: 16px;
+  margin-top: 5460px;
+  padding-left: 20px;
+
+}
+.footer {
+  padding-right: 15px;
+ 
+}
+.container {
+  max-width: 1170px;
+  
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-col ul {
+  list-style: none;
+}
+.footer-col li a {
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 30px;
+  color: rgb(156, 151, 151);
+ 
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 25px;
+}
+.footer-col h4 {
+  font-size: 13px;
+  color: #fde6e6;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+/**/
+.Findstore h5 {
+    font-size: 15px;
+    color: #f7f2f2;
+    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 25px;
+    padding-right: 50px;
+    padding-left: 10px;
+  }
+.india{
+    display: flex;
+    width: 101.2%;
+    height: 50px;
+    float: left;
+    margin-top: 50px;
+    padding-right: px;
+    font-size: 10px;
+    color: rgb(156, 151, 151);
+    
+    
+}
+.india h4{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.india h5{
+    padding-left: 10px;
+}
+.Guide{
+    display: flex;
+    width: 450px;
+    height: 50px;
+    
+    float: right;
+    margin-left: 554px;
+    color: rgb(156, 151, 151);
+
+}
+.Guide h4{
+    text-align: right;
+    padding-right: 9px;
+    margin-left: 30px;
+}
+.social-media-button{
+  position: relative;
+  padding-left: 284px;
+  color: #000000;
+
+}
